@@ -964,7 +964,7 @@ textarea {
     clear: right;
     float: right;
     height: 100%;
-    margin-top: calc(var(--navbar-height) + 3.75rem);
+    margin-top: calc(var(--navbar-height) + .75rem);
     width: 60%;
   }
 }

@@ -656,13 +656,13 @@ textarea {
   display: flex;
   height: var(--navbar-height);
   overflow: hidden;
-  width: 32%;
+  width: 20%;
   z-index: 2;
 }
 @media all and (min-width: 56.25em) {
   .top__item {
     border-bottom: 1px solid var(--hero-border-color);
-    margin: 0 4%;
+    margin: 0 2%;
     position: fixed;
   }
 }
@@ -675,7 +675,7 @@ textarea {
   border-color: var(--light) !important;
   position: absolute;
   right: 0;
-  width: 52%;
+  width: 73%;
 }
 @media all and (min-width: 112.5em) {
   .top__item--right {
@@ -893,7 +893,7 @@ textarea {
     height: 100vh;
     position: fixed;
     top: 0;
-    width: 40vw;
+    width: 23vw;
   }
 }
 @media all and (min-width: 112.5em) {
@@ -965,12 +965,12 @@ textarea {
     float: right;
     height: 100%;
     margin-top: calc(var(--navbar-height) + .75rem);
-    width: 60%;
+    width: 70%;
   }
 }
 @media all and (min-width: 112.5em) {
   .main__right {
-    width: 50%;
+    width: 70%;
   }
 }
 .main__right > div {
@@ -1387,7 +1387,7 @@ textarea {
 }
 @media all and (min-width: 56.25em) {
   .footer {
-    margin-left: 44%;
+    margin-left: 25%;
   }
 }
 @media all and (min-width: 112.5em) {

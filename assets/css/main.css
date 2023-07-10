@@ -145,7 +145,7 @@ pre {
   margin-top: 1.5rem;
 }
 
-h1,
+
 h2,
 h3,
 h4,
@@ -161,15 +161,23 @@ h6 {
 
 h1 {
   font-size: 1.423828125rem;
+  font-family: var(--heading-font);
+  font-weight: var(--headings-weight);
+  line-height: 1.2;
+  margin-top: 2.75rem;
+  text-transform: var(--headings-transform);
+  color: #FF1FAD;
 }
 @media screen and (min-width: 20rem) {
   h1 {
     font-size: calc(1.423828125rem + 1.8234929005 * ((100vw - 20rem) / 220));
+    color: #FF1FAD;
   }
 }
 @media screen and (min-width: 240rem) {
   h1 {
     font-size: 3.2473210255rem;
+    color: #FF1FAD;
   }
 }
 
@@ -189,6 +197,7 @@ h2 {
 
 h3 {
   font-size: 1.125rem;
+
 }
 @media screen and (min-width: 20rem) {
   h3 {

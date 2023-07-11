@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://milkcomics.com/sitemap.xml
+Sitemap: https://gosugimoto.github.io/milkcomics/sitemap.xml

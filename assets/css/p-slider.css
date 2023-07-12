@@ -129,7 +129,7 @@
 
 @media all and (min-width: 56.25em) {
 	.slider__txtwrap h1 {
-		text-indent: 4rem;
+		text-indent: 1rem;
 	}
 }
 
@@ -207,10 +207,11 @@
 	transition: all 0.425s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 	visibility: hidden;
 	z-index: 2;
+	font-size: 18px;
 }
 
 .slider__btn:after {
-	background: #2a2e30;
+	background: #eb17af;
 	content: "";
 	height: 100%;
 	width: 4.05rem;
@@ -279,16 +280,16 @@
 }
 
 .slider-dots__item {
-	background: #838793 !important;
+	background: #33add9 !important;
 	border-radius: 50%;
 	cursor: pointer;
 	display: inline-block;
-	height: 6px;
+	height: 8px;
 	opacity: .25;
 	margin: calc(3rem / 2 - 6px) 6px;
 	padding: 0;
 	text-indent: -99999rem;
-	width: 6px;
+	width: 8px;
 }
 
 @media all and (min-width: 56.25em) {

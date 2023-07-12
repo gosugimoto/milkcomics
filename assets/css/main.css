@@ -137,7 +137,7 @@ html {
 body {
   background: #fff;
   color: #4e5360;
-  font-family: "Muli", sans-serif;
+  font-family: "Comic Neue", cursive;
   font-weight: 400;
   line-height: 1.6;
   -ms-scroll-chaining: none;
@@ -179,7 +179,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "PT Serif", serif;
+  font-family: "Mali", cursive;
   font-weight: 400;
   letter-spacing: 0.02rem;
   line-height: 1.3;
@@ -254,7 +254,7 @@ strong {
 
 blockquote {
   border-left: 2px solid #D6496C;
-  font-family: "PT Serif", serif;
+  font-family: "Mali", cursive;
   padding: 0.25rem 0 0.25rem 2rem; }
   blockquote {
     font-size: 1.125rem; }
@@ -345,7 +345,7 @@ button {
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font: 400 0.6243rem "Muli", sans-serif;
+  font: 400 0.6243rem "Muli", cursive;
   letter-spacing: 0.08em;
   padding: 0.75rem 1.25rem;
   vertical-align: middle;
@@ -611,7 +611,7 @@ textarea {
 /* Logo ------------------------ */
 .logo {
   color: #4e5360 !important;
-  font-family: "PT Serif", serif;
+  font-family: "Mali", cursive;
   font-size: 1rem; }
   @media all and (min-width: 56.25em) {
     .logo {
@@ -1145,7 +1145,7 @@ main {
     margin-top: calc(0.75rem + 0.25vw); }
   .category__btn {
     display: inline-block;
-    font: 400 0.6243rem "Muli", sans-serif;
+    font: 400 0.6243rem "Muli", cursive;
     letter-spacing: 0.08em;
     margin-top: calc(1.5rem + 0.25vw);
     padding-right: 0.25rem;
@@ -1259,7 +1259,7 @@ main {
     margin: 0 auto; } }
 
 .post__entry__intro {
-  font-family: "PT Serif", serif;
+  font-family: "Mali", cursive;
   margin: 0 auto calc(1.5rem + 1vw); }
   .post__entry__intro {
     font-size: 1.125rem; }
@@ -1651,7 +1651,7 @@ main {
 
 .dropcap:first-letter {
   float: left;
-  font-family: "PT Serif", serif;
+  font-family: "Mali", cursive;
   line-height: 0.6;
   margin-right: 0.75rem;
   padding: 0.5rem 0.5rem 0.5rem 0; }

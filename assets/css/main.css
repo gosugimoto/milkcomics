@@ -45,7 +45,7 @@ li {
 img {
   height: auto;
   max-width: 100%;
-  vertical-align: top; }
+  vertical-align: -250px; }
 
 .post__share .facebook:hover {
   background: #3b5998;

@@ -135,7 +135,7 @@ html {
         font-size: 1.2rem; } }
 
 body {
-  background: #fff;
+  background: #e4fbff;
   color: #4e5360;
   font-family: "Comic Neue", cursive;
   font-weight: 400;
@@ -527,7 +527,7 @@ textarea {
 
 /* Wrapper + Header ------------------------ */
 .container {
-  background: #fff;
+  background: #e4fbff;
   max-width: 100%;
   padding: 0 4%;
   overflow: hidden; }
@@ -538,7 +538,7 @@ textarea {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    background: #fff;
+    background: #e4fbff;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

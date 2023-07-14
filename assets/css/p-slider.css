@@ -68,7 +68,7 @@
 }
 
 .slider__txtwrap {
-	background: rgba(255, 255, 255, 0.7);
+	background: rgba(216, 228, 230, 1);
 	color: #4e5360;
 	font-style: normal;
 	left: 4%;
@@ -280,7 +280,7 @@
 }
 
 .slider-dots__item {
-	background: #33add9 !important;
+	background: #eb17af !important;
 	border-radius: 50%;
 	cursor: pointer;
 	display: inline-block;

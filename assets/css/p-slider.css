@@ -31,6 +31,9 @@
 	-o-object-fit: cover;
 	object-fit: cover;
 	width: 100%;
+	border-style: solid;
+	border-color: white;
+	border-width: 15px;
 }
 
 .slider__down.no-animation {
@@ -88,7 +91,7 @@
 	.slider__txtwrap {
 		left: 20%;
 		max-width: 80%;
-		padding: 0;
+		padding: 10px;
 		text-align: left;
 		top: 60%;
 		-webkit-transform: translateY(-60%);

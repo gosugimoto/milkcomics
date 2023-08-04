@@ -71,7 +71,7 @@
 }
 
 .slider__txtwrap {
-	background: rgba(216, 228, 230, 1);
+	background: rgb(255 236 252 / 69%);
 	color: #4e5360;
 	font-style: normal;
 	left: 4%;
@@ -100,7 +100,7 @@
 	}
 	.slider__txtwrap:before {
 		content: "";
-		border-top: 1px solid #4e5360;
+		border-top: 1px solid #3de77a;
 		position: absolute;
 		width: calc(4rem + 15vw);
 		height: calc(42% + 3vw);
@@ -137,7 +137,7 @@
 }
 
 .slider__category {
-	color: #7a7e88;
+	color: #000000;
 	display: block;
 	font-size: 0.6243rem;
 	letter-spacing: 0.08em;
@@ -152,7 +152,7 @@
 }
 
 .slider__category:after {
-	border-top: 1px solid #4e5360;
+	border-top: 1px solid #3de77a;
 	content: "";
 	position: absolute;
 	left: -15vw;

@@ -305,21 +305,23 @@ table {
   overflow-x: auto;
   vertical-align: top;
   text-align: left;
-  white-space: wrap; }
+  white-space: wrap;
+margin-top: -10%; }
   table th {
     border-bottom: 2px solid rgba(0, 0, 0, 0.15);
     padding: 0.75rem 1.25rem; }
   table tr:nth-child(2n) {
     background: #f6f6f7; }
   table td {
-    padding: 0.75rem 1.25rem; }
+    padding: 0.75rem 1.25rem;
+  margin-top: -10%; }
 
 figcaption {
   clear: both;
   color: #7a7e88;
   font-style: italic;
   font-size: 0.702rem;
-  margin: 0.75rem 0 0;
+  margin: 0.2rem 0 0;
   text-align: center; }
 
 hr {
@@ -649,7 +651,8 @@ textarea {
     @media all and (min-width: 56.25em) {
       .navbar__menu li {
         display: inline-block;
-        font-size: 0.6243rem;
+        font-size: 0.8rem;
+        font-weight: 600;
         letter-spacing: 0.08em;
         padding: 0 0.5rem;
         position: relative;
@@ -1195,7 +1198,7 @@ main {
     object-position: center center; }
     @media all and (min-width: 56.25em) {
       .post__featured-image > img {
-        height: calc(100vh - 3rem * 2);
+        height: 20vh;
         min-height: 6vh; } }
   @media all and (min-width: 56.25em) {
     .post__featured-image > figcaption {
@@ -1206,13 +1209,13 @@ main {
   margin: 0 0 calc(1.5rem); }
   .post__header > h1 {
     line-height: 1.2;
-    margin-top: calc(3rem + 2vw);
+    margin-top: 1vh;
    }
     .post__header > h1 {
       font-size: 1.42383rem; }
       @media screen and (min-width: 20rem) {
         .post__header > h1 {
-          font-size: calc(1.42383rem + 5.98233 * ((100vw - 20rem) / 113)); } }
+          font-size: calc(1.42383rem + 2.98233 * ((100vw - 20rem) / 113)); } }
       @media screen and (min-width: 133rem) {
         .post__header > h1 {
           font-size: 7.40616rem; } }
@@ -1888,7 +1891,8 @@ main {
       height: 100%;
       -o-object-fit: cover;
       object-fit: cover;
-      width: 100%; }
+      width: 100%;
+      border-radius: 30px; }
     .gallery__item figcaption {
       bottom: 1.2rem;
       color: #fff;

@@ -305,7 +305,7 @@ table {
   overflow-x: auto;
   vertical-align: top;
   text-align: left;
-  white-space: nowrap; }
+  white-space: wrap; }
   table th {
     border-bottom: 2px solid rgba(0, 0, 0, 0.15);
     padding: 0.75rem 1.25rem; }

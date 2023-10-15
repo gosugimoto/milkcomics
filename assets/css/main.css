@@ -257,10 +257,10 @@ blockquote {
   font-family: "Mali", cursive;
   padding: 0.25rem 0 0.25rem 2rem; }
   blockquote {
-    font-size: 1.125rem; }
+    font-size: 20px; }
     @media screen and (min-width: 20rem) {
       blockquote {
-        font-size: calc(1.125rem + 0.14062 * ((100vw - 20rem) / 113)); } }
+        font-size: 20px; } }
     @media screen and (min-width: 133rem) {
       blockquote {
         font-size: 1.26562rem; } }
@@ -653,10 +653,9 @@ textarea {
         display: inline-block;
         font-size: 0.8rem;
         font-weight: 600;
-        letter-spacing: 0.08em;
-        padding: 0 0.5rem;
+        letter-spacing: 0.05em;
+        padding: 0 0.3rem;
         position: relative;
-        text-transform: uppercase;
         z-index: 2001; } }
     .navbar__menu li:hover, .navbar__menu li[aria-expanded="true"] {
       cursor: pointer; }
@@ -1199,6 +1198,7 @@ main {
     @media all and (min-width: 56.25em) {
       .post__featured-image > img {
         height: 20vh;
+        vertical-align: -10px;
         min-height: 2vh; } }
   @media all and (min-width: 56.25em) {
     .post__featured-image > figcaption {

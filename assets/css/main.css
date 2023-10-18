@@ -233,13 +233,13 @@ h5 {
       font-size: 1.125rem; } }
 
 h6 {
-  font-size: 0.79012rem; }
+  font-size: 2.5rem; }
   @media screen and (min-width: 20rem) {
     h6 {
-      font-size: calc(0.79012rem + 0.20988 * ((100vw - 20rem) / 113)); } }
+      font-size: calc(2.5rem + 0.85687 * ((100vw - 20rem) / 113)); } }
   @media screen and (min-width: 133rem) {
     h6 {
-      font-size: 1rem; } }
+      font-size: 2.5rem; } }
 
 h2 + p,
 h3 + p,
@@ -1890,7 +1890,7 @@ main {
       display: block;
       height: 100%;
       -o-object-fit: cover;
-      object-fit: cover;
+      object-fit: scale-down;
       width: 100%;
       border-radius: 30px; }
     .gallery__item figcaption {
